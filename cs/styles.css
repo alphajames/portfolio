@@ -1,0 +1,129 @@
+@import "globals.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif !important;
+}
+
+/* heading section */
+
+#scroll-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.heading-padding{
+    padding-bottom: 12%;
+}
+.nav-item{
+    padding: 0px 15px 0px 0px;
+}
+.navbar{
+    padding: 0px 0px 50px 0px !important;
+}
+.scroll-btn{
+    position: fixed;
+    bottom: 75px;
+    right: 40px;
+}
+.img-1{
+    border-radius: 2px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 5px #ef515e;
+}
+.hr-dotted-left{
+    border-top: 8px solid #ef515e;
+    width: 90px;
+    margin: 0px;
+}
+.hr-dotted-center{
+    border-top: 8px solid #ef515e;
+    width: 90px;
+}
+
+/* about section */
+
+.img-2{
+    width: 80%;
+    border-radius: 2px;
+    box-shadow: -10px 10px 5px #ef515e;
+}
+
+/* projects section */
+
+#projects{
+    text-align: center;
+}
+.carousel-text{
+    margin-top: 40px;
+}
+.btn,.btn-carousel{
+    border-radius: 24px !important;
+    padding: 9px 25px 9px 25px !important;
+    margin: 5px 20px 10px 5px;
+}
+.carousel-wide {
+    width: 800px;
+    margin: auto auto;
+}
+.btn-red{
+    background-color: #ef515e;
+    border-color: #ef515e;
+}
+.btn-green{
+    background-color:  #16a085;
+    border-color:  #16a085;
+}
+
+/* contacts section */
+
+.btn-instagram{
+    background-color: #d53876;
+    border-color: #d53876;
+}
+
+/* media queries  */
+
+@media (max-width: 1020px){
+    #heading{
+       text-align: center;
+     } 
+    #scroll-top{
+       display: none;
+     }
+   .name-heading{
+       font-size: 3.5rem;
+   }
+   .img-1{
+       margin-top: 20px;
+       margin-left: 0px;
+       width: 80%;
+   }
+   .about-heading, .project-heading{
+       font-size: 2.5rem;
+   }
+   .hr-dotted-left{
+       margin: auto auto auto auto !important;
+   }
+
+   .img2-container, .img1-container{
+       text-align: center;
+   }
+   .nav-item, .btn-contacts{
+       margin: 10px 10px 15px 0px;
+   }
+   .btn-carousel{
+      display: none;
+   }
+   .about-caption{
+       text-align: center;
+   }
+   .carousel-wide{
+       width: 300px;
+   }
+}
