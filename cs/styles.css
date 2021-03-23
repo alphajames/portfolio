@@ -89,41 +89,48 @@ body{
 
 /* media queries  */
 
-@media (max-width: 1020px){
+@media (max-width: 1080px){
     #heading{
        text-align: center;
      } 
     #scroll-top{
        display: none;
      }
+     .hr-dotted-left{
+        margin: auto auto auto auto !important;
+    }
+ 
+    .img2-container, .img1-container{
+        text-align: center;
+    }
+    .btn-carousel{
+       display: none;
+    }
+    .about-caption{
+        text-align: center;
+    }
    .name-heading{
        font-size: 3.5rem;
    }
+   .about-heading, .project-heading{
+    font-size: 2.5rem;
+   }
+
    .img-1{
        margin-top: 20px;
        margin-left: 0px;
        width: 80%;
    }
-   .about-heading, .project-heading{
-       font-size: 2.5rem;
-   }
-   .hr-dotted-left{
-       margin: auto auto auto auto !important;
-   }
-
-   .img2-container, .img1-container{
-       text-align: center;
-   }
    .nav-item, .btn-contacts{
-       margin: 10px 10px 15px 0px;
-   }
-   .btn-carousel{
-      display: none;
-   }
-   .about-caption{
-       text-align: center;
-   }
+    margin: 10px 10px 15px 0px;
+}
    .carousel-wide{
-       width: 300px;
+       width: 600px;
    }
+}
+
+@media (max-width: 600px){
+    .carousel-wide{
+        width: 300px;
+    }
 }
