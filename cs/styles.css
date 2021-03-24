@@ -135,9 +135,19 @@ body{
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 400px){
+    .img-1{
+        margin-bottom: 110px;
+    }
+    .btn-green{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
     .carousel-wide{
         width: 230px;
+    }
+    .about-caption-heading{
+        font-size: 2.2rem;
     }
     .name-heading{
         font-size: 2.5rem;
