@@ -46,10 +46,10 @@
   color: #f8fefc;
 }
 .font-red{
-  color: #ef515e;
+  color: #ef515e !important;
 }
 .font-green{
-  color:#16a085;
+  color:#16a085 !important;
 }
 /* background colors */
 .bg-black{
