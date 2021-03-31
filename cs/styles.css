@@ -1,6 +1,5 @@
 @import "globals.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
-
 html{
     scroll-behavior: smooth;
 }
@@ -9,9 +8,7 @@ body{
     margin: 0;
     font-family: 'Montserrat',sans-serif !important;
 }
-
 /* heading section */
-
 #scroll-top{
     display: flex;
     align-items: flex-end;
@@ -45,18 +42,14 @@ body{
     border-top: 8px solid #ef515e;
     width: 90px;
 }
-
 /* about section */
-
 .img-2{
     width: 100%;
     height: 900px;
     border-radius: 2px;
     box-shadow: -10px 10px 5px #ef515e;
 }
-
 /* projects section */
-
 #projects{
     text-align: center;
 }
@@ -80,16 +73,12 @@ body{
     background-color:  #16a085;
     border-color:  #16a085;
 }
-
 /* contacts section */
-
 .btn-instagram{
     background-color: #d53876;
     border-color: #d53876;
 }
-
 /* media queries  */
-
 @media (max-width: 1080px){
     #heading{
        text-align: center;
@@ -100,7 +89,6 @@ body{
      .hr-dotted-left{
         margin: auto auto auto auto !important;
     }
- 
     .img2-container, .img1-container{
         text-align: center;
     }
@@ -116,7 +104,6 @@ body{
    .about-heading, .project-heading{
     font-size: 2.5rem;
    }
-
    .img-1{
        margin-top: 20px;
        margin-left: 0px;
@@ -133,13 +120,11 @@ body{
        width: 600px;
    }
 }
-
 @media (max-width: 600px){
     .carousel-wide{
         width: 300px;
     }
 }
-
 @media (max-width: 400px){
     .img-1{
         margin-bottom: 110px;
@@ -161,3 +146,9 @@ body{
      font-size: 2.5rem;
     }
 }
+@-moz-document url-prefix() {
+   .img-2{
+       width: 80%;
+       height: auto;      
+   }
+  }
