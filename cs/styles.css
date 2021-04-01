@@ -151,8 +151,8 @@ body{
         width: 80%;
         height: auto;      
     }
-    .img-1{
-       margin: 1px 300px 1px 1px !important;
+    .img1-container{
+       margin-left: 150px;
     }
     .small-margin-top{
         margin: 100px 0px 0px 0px;
