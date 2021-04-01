@@ -152,7 +152,7 @@ body{
         height: auto;      
     }
     .img-1{
-       margin-left: 300px;
+       margin: 1px 300px 1px 1px !important;
     }
     .small-margin-top{
         margin: 100px 0px 0px 0px;
