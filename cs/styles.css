@@ -30,7 +30,7 @@ body{
 }
 .img-1{
     border-radius: 2px;
-    margin-left: 200px;
+    margin-left: 150px;
     box-shadow: 10px 10px 5px #ef515e;
 }
 .hr-dotted-left{
@@ -44,8 +44,8 @@ body{
 }
 /* about section */
 .img-2{
-    width: 100%;
-    height: 900px;
+    width: 90%;
+    height: 860px;
     border-radius: 2px;
     box-shadow: -10px 10px 5px #ef515e;
 }
@@ -115,7 +115,7 @@ body{
    }
    .nav-item, .btn-contacts{
     margin: 10px 10px 15px 0px;
-}
+   }
    .carousel-wide{
        width: 600px;
    }
@@ -125,13 +125,13 @@ body{
         width: 300px;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 450px){
     .img-1{
         margin-bottom: 110px;
     }
     .btn-green{
         margin-top: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     .carousel-wide{
         width: 230px;
@@ -147,8 +147,14 @@ body{
     }
 }
 @-moz-document url-prefix() {
-   .img-2{
-       width: 80%;
-       height: auto;      
-   }
+    .img-1{
+        margin-left:300px;
+    }
+    .img-2{
+        width: 80%;
+        height: auto;      
+    }
+    .small-margin-top{
+        margin-top: 100px;
+      }
   }
