@@ -7,6 +7,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat',sans-serif !important;
+    height: 100%;
 }
 /* heading section */
 #scroll-top{
@@ -124,8 +125,14 @@ body{
     .carousel-wide{
         width: 300px;
     }
+    .img1-container{
+        margin-left: 0px;
+    }
 }
 @media (max-width: 450px){
+    .img1-container{
+        margin-left: 0px;
+    }
     .img-1{
         margin-bottom: 110px;
     }
