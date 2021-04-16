@@ -114,13 +114,17 @@ body{
        height: auto;
    }
    .nav-item, .btn-contacts{
-    margin: 10px 10px 15px 0px;
+    margin: 20px 10px 15px 0px;
    }
    .carousel-wide{
        width: 600px;
    }
 }
 @media (max-width: 600px){
+    .nav-item{
+        text-align: left;
+        font-size: 2rem !important;
+    }
     .carousel-wide{
         width: 300px;
     }
