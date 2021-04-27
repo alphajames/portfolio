@@ -125,8 +125,7 @@ body{
 }
 @media (max-width: 600px){
     .nav-item{
-        text-align: left;
-        font-size: 2rem !important;
+        font-size: 1rem !important;
     }
     .carousel-wide{
         width: 300px;
