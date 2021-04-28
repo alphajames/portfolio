@@ -54,6 +54,10 @@ body{
 #projects{
     text-align: center;
 }
+.project-img{
+    margin-top: 25px;
+    width:70%;
+}
 .carousel-text{
     margin-top: 40px;
 }
@@ -65,10 +69,7 @@ body{
 .btn-projects{
     margin: 5px 20px 10px 5px;
 }
-.carousel-wide {
-    width: 800px;
-    margin: auto auto;
-}
+
 .btn-red{
     background-color: #ef515e;
     border-color: #ef515e;
@@ -119,9 +120,6 @@ body{
    .nav-item, .btn-contacts{
     margin: 20px 10px 15px 0px;
    }
-   .carousel-wide{
-       width: 600px;
-   }
 }
 @media (max-width: 600px){
     .nav-item{
@@ -139,11 +137,8 @@ body{
         margin: 30px 0px 110px 0px;
     }
     .btn-green, .btn-projects{
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-    .carousel-wide{
-        width: 230px;
+        margin-top: 5px;
+        margin-bottom: 20px;
     }
     .about-caption-heading{
         font-size: 2.2rem;
@@ -167,3 +162,5 @@ body{
         margin: 100px 0px 0px 0px;
       }
   }
+
+
