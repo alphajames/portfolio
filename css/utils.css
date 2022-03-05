@@ -1,9 +1,9 @@
 @font-face {
-    font-family: newake;
+    font-family: Newake;
     src: url("/fonts/newake.otf") format("opentype");
 }
 .newake {
-    font-family: newake, sans-serif !important;
+    font-family: 'Newake', sans-serif !important;
 }
 /* background color  */
 .bg-black {
