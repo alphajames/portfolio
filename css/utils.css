@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'newake';
+    font-family: 'Newake Demo';
     src: url('/fonts/NewakeDemo.woff2') format('woff2'),
         url('/fonts/NewakeDemo.woff') format('woff');
     font-weight: normal;
@@ -7,7 +7,7 @@
     font-display: swap;
 }
 .newake {
-    font-family: 'Newake','Poppins', sans-serif !important;
+    font-family: 'Newake Demo','Poppins', sans-serif !important;
 }
 /* background color  */
 .bg-black {
@@ -175,6 +175,9 @@
     }
     .text-20{
         font-size: 12px !important;
+    }
+     .text-35{
+        font-size: 20px !important;
     }
     .text-52{
         font-size: 25px !important;
