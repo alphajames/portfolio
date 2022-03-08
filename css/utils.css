@@ -1,9 +1,13 @@
 @font-face {
-    font-family: Newake;
-    src: url("/fonts/newake.otf") format("opentype");
+    font-family: 'newake';
+    src: url('/fonts/NewakeDemo.woff2') format('woff2'),
+        url('/fonts/NewakeDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .newake {
-    font-family: 'Newake', sans-serif !important;
+    font-family: 'Newake','Poppins', sans-serif !important;
 }
 /* background color  */
 .bg-black {
