@@ -166,15 +166,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
 }
 /* media screens  */
-@media (max-width:1080px) {
-    
-}
-@media (max-width:600px) {
-    .text-72{
+@media screen and (max-width:450px) {
+    .text-92{
         font-size: 36px !important;
+    }
+    .text-72{
+        font-size: 30px !important;
     }
     .text-20{
         font-size: 12px !important;
+    }
+    .text-52{
+        font-size: 25px !important;
     }
     .p-button{
         width: 90px;
